@@ -1,5 +1,9 @@
-h1 {
-    color:rgb(0, 0, 0)
+header {
+background-color: #888888;
+color: #fff;
+text-align: center;
+padding: 5px;
+height: 60px;
 }
 
 
@@ -11,8 +15,8 @@ div img{
     
     border: 2px solid #000;
   box-shadow: 2px 2px 5px #888888;
-  width: 350px;
-  height: 350px;
+  width: 300px;
+  height: 340px;
   filter: grayscale(50%) blur(3px) brightness(120%);
 }
 
@@ -32,5 +36,5 @@ button{
     font-family: "raleway";
 }
 video{
-    width: 200px;
+    width: 180px;
 }
