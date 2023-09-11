@@ -1,44 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta hrttp-eqiv="x-UA-compitable" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS dasar</title>
-    <!-- Theme CSS -->  
-    <link  rel="stylesheet" href="assets/css/style.css">
-    
+    <title>Halaman Login</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
-    <header>
-        <h1>LOGIN</h1>
-    </header>
-    <div class="col-block col-md-auto resume-picture-holder text-center text-md-start">
-        <center>
+    <div class="images">
         <img class="picture" src="assets/images/profile.jpeg" alt="">
-        <video src="assets/images/vid1.mp4" controls width="640" height="360"></video>
-        </center>
+    </div> 
+    <div class="login-container">
+        <div class="table">
+        <div class="login1">LOGIN</div>
+        
+        <form class="form-container">
+            <div class="form-group">
+                <label for="username">Username:</label><br>
+                <input type="text "placeholder="Username" required><br>
+                <label for="password">Password:</label><br>
+                <input type="password" placeholder="Password" name="password" required>
+                <br><a href="product.html">Prodak saya</a>
+            </div>
+            <div class="login">
+            <input type="submit" class="login-button"value ="login"></input>
+            </div>
+            <div class="video1">
+                <video src="assets/images/vid1.mp4" controls width="150" height="250"></video>
+            </div>
+        </form>
+        </div>
     </div>
-
-    <br>
-    <center>
-    <h3>Wajib diisi karena harus login</h3>
-    </center>
-    <br>
-    <form action="process_login.php" method="POST">
-        <label for="username">Username:</label><br>
-        <input type="text" id="username" name="Username"value ="Username"><br>
-        <label for="username">Password:</label><br>
-        <input type="text" id="Password" name="Password"value ="Password"><br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <!-- Button login -->
-        <center>
-         <input type="submit" value="LOGIN">
-        </center>
-        <!-- Button login -->
-        <br>
-        <p><a href="product.html">Prodak saya</a></p>
 </body>
+</html>
