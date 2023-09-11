@@ -14,6 +14,7 @@ body {
     align-items: center;
     height: 50vh;
     width: 65vh;
+    margin-top: 30vh;
     background-color: #cdcdcd;
     box-shadow: 2px 3px 5px black;
     border-radius: 90px;
@@ -33,7 +34,7 @@ margin-top:25% ;
     justify-content: center;
     margin-left: 60px;
 }
-img{
+img.picture{
     
     border: 1px  solid #000;
     box-shadow: 2px 2px 5px #888888;
@@ -41,6 +42,7 @@ img{
     height: 300px;
     margin: 10px 180px 0px;
     position: absolute;
+    top: 20vh;
     left: 47%;
     bottom: 60%;
     transform: translateX(-90%);
