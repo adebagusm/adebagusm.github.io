@@ -2,13 +2,14 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     padding: 20px;
+    background-color: #232946;
+}
+
+.container{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: #232946;
-    margin-top: 40vh;
 }
-
 .produk {
     background-color: #fff;
     border: 1px solid #ddd;

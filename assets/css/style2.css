@@ -2,12 +2,16 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     padding: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
     background-color: #232946;
     margin-top: 40vh;
 }
+.isian{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
 
 .produk {
     background-color: #fff;
@@ -15,7 +19,7 @@ body {
     border-radius: 20px;
     padding: 20px;
     margin: 10px;
-    width: 300px;
+    width: 290px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
     text-align: center;
     transition: transform 0.2s;
@@ -26,7 +30,7 @@ body {
 }
 
 .produk img {
-    max-width: 100%;
+    max-width: 80%;
 }
 
 .produk h2 {
@@ -52,11 +56,12 @@ body {
     max-width:  1000px;
     position: relative;
     margin: auto;
+    justify-content: center;
 }
 
 
-.mySlides {
-    display: none;
+.mySlides.fade{
+    justify-content: center;
 }
 
 
@@ -88,7 +93,7 @@ body {
 
 
 .text {
-    color: #f2f2f2;
+    color: #000000;
     font-size: 15px;
     padding: 8px 12px;
     position: absolute;
@@ -99,7 +104,7 @@ body {
 
 
 .numbertext {
-    color: #f2f2f2;
+    color: #000000;
     font-size: 12px;
     padding: 8px 12px;
     position: absolute;
@@ -112,14 +117,14 @@ body {
     height: 15px;
     width: 15px;
     margin: 0 2px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(64, 255, 0);
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
 }
 
 .active, .dot:hover {
-    background-color: #ffffff;
+    background-color: #ff0000;
 }
 
 

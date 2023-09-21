@@ -61,7 +61,7 @@ h4{
     width: 65%;
     }
 }
-@media screen and (max-width:626px){
+@media screen and (max-width:628px){
     nav ul{
     display: none;
     }
@@ -116,7 +116,6 @@ img{
 }
 .form-container input{
     padding: 5px;
-
     border-radius: 5px;
 }
 .login-button{
@@ -132,16 +131,42 @@ img{
     margin-bottom: 10px;
     
 }
-/*uk tab*/
-@media screen and (max-width:768px){
+
+@media screen and (max-width:989px){
     .container{
         width: 50%;
     }
 }
 
-/*uk hp*/
 @media screen and (max-width:576px){
     .container{
+    width:  60%;
+    }
+}
+@media screen and (max-width:430px){
+    .form-container{
+    display: 70%;
+    }
+}
+@media screen and (max-width:989px){
+    .form-container{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:576px){
+    .form-container{
+    display: 60%;
+    }
+}
+
+@media screen and (max-width:989px){
+    .video1{
+    display: none;
+    }
+}
+@media screen and (max-width:576px){
+    img{
     display: none;
     }
 }
