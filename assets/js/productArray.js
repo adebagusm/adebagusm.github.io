@@ -42,7 +42,7 @@ let products =[
         deskripsi :`disini juga menjual motor aerox dengan harga hanya 24juta`
     },{
         nama :`ZX25R`,
-        Image :`assets/gambarP/gambar4.jpg`,
+        Image :`assets/gambarP/gambar4.JPG`,
         deskripsi :`motor ini bisa di bandrol harga dengan kisaran 98,85 juta - 100 juta`
     },{
         nama :`CBR250RR`,
