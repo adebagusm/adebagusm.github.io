@@ -17,15 +17,18 @@ nav {
     align-items: center;
     font-family: 'Poppins', sans-serif;
 }
-nav .logo{
+nav .merek{
     font-family: 'Pacifico', cursive;
     letter-spacing: 3px;
+    font-size: 1.2em;
+    
+    
 }
 nav ul{
     display: flex;
     list-style: none;
-    width: 40%;
-    justify-content: space-between;
+    width: 75%;
+    justify-content: space-around;
 }
 nav ul li a{
     color: rgb(255, 208, 0);
@@ -38,23 +41,19 @@ nav ul li a:hover{
     color:#de06ff;
 }
 
-h4{
-    font-size: 1.2em;
-}
 
 
 
-
-@media screen and (max-width:768px){
+@media screen and (max-width:857px){
     nav ul{
-        width: 50%;
+        width: 80%;
     }
 }
 
 
-@media screen and (max-width:576px){
+@media screen and (max-width:846px){
     nav ul{
-    display: none;
+    width:  95%;
     }
 }
 
@@ -70,8 +69,9 @@ h4{
 .container2{
     display: flex;
     color: aliceblue;
-    font-family: 'Montserrat Subrayada', sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin-top: 60px;
+    font-weight: 600;
 }
 .container2 h2{
     position: absolute;
@@ -100,4 +100,5 @@ table{
 }
 h3{
     color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
 }

@@ -17,9 +17,10 @@ nav {
     align-items: center;
     font-family: 'Poppins', sans-serif;
 }
-nav .logo{
+nav .merek{
     font-family: 'Pacifico', cursive;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
+    font-size: 1,4em;
 }
 nav ul{
     display: flex;
@@ -38,9 +39,6 @@ nav ul li a:hover{
     color:#de06ff;
 }
 
-h4{
-    font-size: 1.2em;
-}
 
 
 
